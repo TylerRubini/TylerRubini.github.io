@@ -4,10 +4,10 @@
     padding: 5px;
     text-align: left;
   }
-  
+
   td:first-child {
-    min-width: 850px;
-    max-width: 850px;
+    min-width: 450px;
+    max-width: 450px;
   }
 
   #div1 {
