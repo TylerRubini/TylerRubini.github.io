@@ -4,3 +4,7 @@
     padding: 5px;
     text-align: left;
   }
+
+  #div1 {
+    overflow-x:auto;
+  }
