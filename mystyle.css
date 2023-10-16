@@ -35,6 +35,7 @@
 
   /* h2 selector is set to normal text weight and 28px font size (overriding two defaults) */
   h2 {
+    text-align: center;
     font-weight: normal;
     font-size: 28px;
   }
