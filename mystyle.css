@@ -43,22 +43,22 @@
     color: white;
   }
 
-  #tr2 {
+  #tr2:hover {
     background-color:blue;
     color:gold;
   }
 
-  #tr3 {
+  #tr3:hover {
     background-color: firebrick;
     color: orange
   }
 
-  #tr4 {
+  #tr4:hover {
     background-color: maroon;
     color:yellow
   }
 
-  #tr5 {
+  #tr5:hover {
     background-color: red;
     color: black;
   }
