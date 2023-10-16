@@ -19,8 +19,8 @@
     background-color: lightgray;
   } */
 
-  #bgimage {
-    background-image: linear-gradient(red,lightgray);
+body {
+    background-image: linear-gradient(gray,lightgray);
   }
 
   /* Global site font is set to Verdana, with several other sans-serif fonts as backups as recommended on w3schools */
