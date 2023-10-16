@@ -21,3 +21,8 @@
   * {
     font-family: Verdana, Tahoma, Arial, sans-serif;
   }
+
+  h1 {
+    font-weight: bold;
+    text-align: center;
+  }
