@@ -5,15 +5,6 @@
     text-align: left;
   }
 
-  td:first-child {
-    min-width: 450px;
-    max-width: 450px;
-  }
-
-  #div1 {
-    overflow-x:auto;
-  }
-
   /* Site background is set to light gray */
   body {
     background-color: lightgray;
