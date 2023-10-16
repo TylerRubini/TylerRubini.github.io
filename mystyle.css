@@ -38,6 +38,7 @@
     text-align: center;
     font-weight: normal;
     font-size: 28px;
+    text-decoration-line: underline;
   }
 
   /* h3 selector is set to normal text weight and 22 px font size (overriding two defaults) */
