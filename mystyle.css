@@ -5,10 +5,10 @@
     text-align: left;
   }
 
-  /* Site background is set to light gray */
+  /* Site background is set to light gray 
   body {
     background-color: lightgray;
-  } 
+  } */
 
   /* Global site font is set to Verdana, with several other sans-serif fonts as backups as recommended on w3schools */
   * {
