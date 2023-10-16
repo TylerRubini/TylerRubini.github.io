@@ -36,7 +36,7 @@
     background-color: silver;
   }
 
-  /* Table and components are set to have a 1px collapsed black border with a left text alignment and 5px of padding around the text.
+  /* Table and components are set to have a 1px collapsed black border. The font size is set to 18px, with 5px of padding around it and a left alignment. */
   Based on instructions at https://www.w3schools.com/css/css_table.asp */
   table, td, th {
     border: 1px solid black;
@@ -80,4 +80,8 @@
   #tr6:hover {
     background-color: red;
     color: black;
+  }
+
+  #external {
+    color:lightsteelblue
   }
