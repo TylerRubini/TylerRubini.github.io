@@ -14,22 +14,27 @@
     overflow-x:auto;
   }
 
+  /* Site background is set to light gray */
   body {
     background-color: lightgray;
   }
 
+  /* Global site font is set to Verdana, with several other sans-serif fonts as backups as recommended on w3schools */
   * {
     font-family: Verdana, Tahoma, Arial, sans-serif;
   }
 
-  /* h1 selector is center-aligned, */
+  /* h1 selector is center-aligned, set to normal weight, and set to 36px size (overriding two defaults). A grey text shadow effect is added, inspired by the example at
+  https://www.w3schools.com/css/css_text_shadow.asp */
   h1 {
     text-align: center;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 36px;
     text-shadow: 3px 3px 4px gray;
   }
 
+  /* h2 selector is set to normal weight and 28px size (overriding two defaults) */
   h2 {
-
+    font-weight: normal;
+    font-size: 28px;
   }
