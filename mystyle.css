@@ -1,10 +1,3 @@
-  table, td, th {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 5px;
-    text-align: left;
-  }
-
   /* Site background is set to light gray */
   body {
     background-color: lightgray;
@@ -32,32 +25,51 @@
     text-decoration-line: underline;
   }
 
-  /* h3 selector is set to normal text weight and 22 px font size (overriding two defaults) */
+  /* h3 selector is set to normal text weight and 24 px font size (overriding two defaults) */
   h3 {
     font-weight: normal;
-    font-size: 22px;
+    font-size: 24px;
   }
 
+  p {
+    font-size: 20px;
+  }
+
+  /* Table and components are set to have a 1px collapsed black border with a left text alignment and 5px of padding around the text.
+  Based on instructions at https://www.w3schools.com/css/css_table.asp */
+  table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+  }
+
+  /* First line of table changes to school colours on mouse-over 
+  Instructions and design inspiration for all five table rows from https://www.w3schools.com/css/css_table_style.asp */
   #tr1:hover {
     background-color: lightseagreen;
     color: white;
   }
 
+  /* Second line of table changes to school colours on mouse-over */
   #tr2:hover {
     background-color:blue;
     color:gold;
   }
 
+  /* Third line of table changes to school colours on mouse-over */
   #tr3:hover {
     background-color: firebrick;
     color: orange
   }
 
+  /* Fourth line of table changes to school colours on mouse-over */
   #tr4:hover {
     background-color: maroon;
     color:yellow
   }
 
+  /* Fifth line of table changes to school colours on mouse-over */
   #tr5:hover {
     background-color: red;
     color: black;
