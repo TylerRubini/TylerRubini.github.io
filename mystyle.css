@@ -43,6 +43,7 @@
     border-collapse: collapse;
     padding: 5px;
     text-align: left;
+    font-size: 18;
   }
 
   /* Table categories line set to silver background to match p tags */
