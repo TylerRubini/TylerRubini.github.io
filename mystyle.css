@@ -38,7 +38,7 @@
     font-size: 22px;
   }
 
-  #tr1 {
+  #tr1:hover {
     background-color: lightseagreen;
     color: white;
   }
@@ -60,5 +60,5 @@
 
   #tr5 {
     background-color: red;
-    color: blue
+    color: black;
   }
