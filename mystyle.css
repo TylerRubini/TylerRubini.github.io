@@ -33,6 +33,7 @@
 
   p {
     font-size: 18px;
+    background-color: darkgray;
   }
 
   /* Table and components are set to have a 1px collapsed black border with a left text alignment and 5px of padding around the text.
