@@ -22,8 +22,14 @@
     font-family: Verdana, Tahoma, Arial, sans-serif;
   }
 
+  /* h1 selector is center-aligned, */
   h1 {
-    text-shadow: 3px 3px 4px gray;
     text-align: center;
     font-weight: normal;
+    font-size: 40px;
+    text-shadow: 3px 3px 4px gray;
+  }
+
+  h2 {
+
   }
