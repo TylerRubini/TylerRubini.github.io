@@ -24,7 +24,7 @@
     font-family: Verdana, Tahoma, Arial, sans-serif;
   }
 
-  /* h1 selector is center-aligned, set to normal weight, and set to 36px size (overriding two defaults). A grey text shadow effect is added, inspired by the example at
+  /* h1 selector is set to center alignment, normal text weight, and 36px font size (overriding two defaults). A grey text shadow effect is added, inspired by the example at
   https://www.w3schools.com/css/css_text_shadow.asp */
   h1 {
     text-align: center;
@@ -33,15 +33,14 @@
     text-shadow: 3px 3px 4px gray;
   }
 
-  /* h2 selector is set to normal weight and 28px size (overriding two defaults) */
+  /* h2 selector is set to normal text weight and 28px font size (overriding two defaults) */
   h2 {
     font-weight: normal;
     font-size: 28px;
   }
 
-  /* h3 selector is set to normal weight and 22 px size (overriding two defaults */
+  /* h3 selector is set to normal text weight and 22 px font size (overriding two defaults) */
   h3 {
-    text-align: center;
     font-weight: normal;
     font-size: 22px;
   }
