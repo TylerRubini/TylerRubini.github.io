@@ -49,6 +49,7 @@
 
   .grad {
     color: green;
+    font-weight: bold;
   }
 
   /* Table categories line set to silver background to match p tags */
@@ -60,7 +61,7 @@
   Instructions and design inspiration for all five data rows from https://www.w3schools.com/css/css_table_style.asp */
   #tr2:hover {
     background-color: lightseagreen;
-    color: white;
+    color: white !important;
   }
 
   /* Second line of education data changes to school colours on mouse-over */
@@ -72,13 +73,13 @@
   /* Third line of education data changes to school colours on mouse-over */
   #tr4:hover {
     background-color: firebrick;
-    color: orange
+    color: orange !important;
   }
 
   /* Fourth line of education data changes to school colours on mouse-over */
   #tr5:hover {
     background-color: maroon;
-    color:yellow
+    color:yellow !important;
   }
 
   /* Fifth line of education data changes to school colours on mouse-over */
