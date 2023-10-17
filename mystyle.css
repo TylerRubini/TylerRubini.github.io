@@ -48,7 +48,7 @@
   }
 
   /* Table entries that indicate I've successfully graduated are coloured green and bolded. I intended the text colour to change to match the rest of the row on mouse-over, but this class keeps overriding the 
-     ID selectors used for the rest of the table. While I should be able to override this with !important, it does not seem to be taking for some reason, so the green stays whether the row is moused-over or not 
+     ID selectors used for the rest of the table. While I should be able to override this with !important, it does not seem to be taking for some reason, so the green stays whether the row is moused-over or not. 
      Green shade is Kelly Green from https://cssgradient.io/shades-of-green/ */
   .grad {
     color: #4CBB17;
