@@ -47,6 +47,10 @@
     font-size: 18px;
   }
 
+  .grad {
+    color: green;
+  }
+
   /* Table categories line set to silver background to match p tags */
   #tr1 {
     background-color:silver;
