@@ -64,7 +64,7 @@
   Instructions and design inspiration for all five data rows from https://www.w3schools.com/css/css_table_style.asp */
   #tr2:hover {
     background-color: lightseagreen;
-    color: white !important;
+    color: white;
   }
 
   /* Second line of education data changes to school colours on mouse-over */
