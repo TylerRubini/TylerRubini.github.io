@@ -39,7 +39,12 @@
 
 .capt {
   text-align: center;
-  {
+}
+
+.photo {
+  text-align: center;
+}
+  
 
   /* Table and components are set to have a 1px collapsed black border. The font size is set to 18px, with 5px of padding around it and a left alignment.
   Based on instructions at https://www.w3schools.com/css/css_table.asp */
