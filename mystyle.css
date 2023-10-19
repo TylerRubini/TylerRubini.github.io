@@ -39,11 +39,6 @@
     background-color: silver;
   }
 
-  /* All divs surrounding photos and their caption on the gallery page are centred. Instructions on how to accomplish this were found here: https://www.freecodecamp.org/news/how-to-center-an-image-in-css/ */
-  .photo {
-    text-align: center;
-  }
-
   /* Table and components are set to have a 1px collapsed black border. The font size is set to 18px, with 5px of padding around it and a left alignment.
   Based on instructions at https://www.w3schools.com/css/css_table.asp, https://www.w3schools.com/css/css_table_align.asp, and https://www.w3schools.com/css/css_table_style.asp */
   table, td, th {
@@ -104,7 +99,22 @@
     color:teal;
   }
 
-  #image1 {
-    width: 500px;
+  /* All divs surrounding photos and their caption on the gallery page are centred. Instructions on how to accomplish this were found here: https://www.freecodecamp.org/news/how-to-center-an-image-in-css/ */
+  .photo {
+    text-align: center;
+  }
+
+  .img1to3 {
+    width: 525px;
     height: 393px;
+  }
+
+  #img4 {
+    width: 525px;
+    height: 401px;
+  }
+
+ #img5 {
+   width: 525px;
+   height: 700px;
   }
