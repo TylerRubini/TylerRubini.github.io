@@ -104,17 +104,21 @@
     text-align: center;
   }
 
+  /* The first three photos in the gallery are the same size, so I used a class to display them in their native resolution.
+     https://www.w3schools.com/css/css_dimension.asp used for guidance here and for the next two IDs immediately below this */ 
   .img1to3 {
-    width: 500px;
+    width: 525px;
     height: 393px;
   }
 
+  /* ID used to display image 4 in its native resolution */
   #img4 {
-    width: 500px;
+    width: 525px;
     height: 401px;
   }
 
- #img5 {
-   width: 500px;
-   height: 626px;
+  /* ID used to display image 5 in its native resolution */
+  #img5 {
+    width: 525px;
+    height: 626px;
   }
