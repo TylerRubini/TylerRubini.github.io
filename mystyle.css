@@ -1,6 +1,6 @@
 /* This website was submitted by Tyler Rubini in GEOM 101 at Fleming College on October 19th, 2023 */
 
-/* Site background is set to light gray */
+  /* Site background is set to light gray */
   body {
     background-color: lightgray;
   }
@@ -19,7 +19,7 @@
     text-shadow: 3px 3px 4px gray;
   }
 
-  /* h2 selector is set to center alignment, normal text weight, and 28px font size with a 30px margin to provide a bit of white space between h1 and h2 (overriding three defaults) */
+  /* h2 selector is set to center alignment, normal text weight, a 28px font size, and a 30px margin to provide a bit of white space between h1 and h2 (overriding three defaults) */
   h2 {
     text-align: center;
     font-weight: normal;
@@ -76,7 +76,7 @@
   }
 
   /* First line of education data changes to school colours on mouse-over 
-  Instructions and design inspiration for all five upcoming table rows from https://www.w3schools.com/css/css_table_style.asp */
+  Instructions and design inspiration for all five mouse-over table rows from https://www.w3schools.com/css/css_table_style.asp */
   #tr2:hover {
     background-color: lightseagreen;
     color: white;
@@ -106,7 +106,8 @@
     color: black;
   }
 
-  /* All external links are coloured teal and given an overline in addition to the regular underline to provide contrast with internal links */
+  /* All external links are coloured teal and given an overline in addition to the regular underline to provide contrast with internal links. Overline instructions from 
+     https://www.w3schools.com/cssref/pr_text_text-decoration.php */
   .external {
     color: teal;
     text-decoration: overline underline teal;
