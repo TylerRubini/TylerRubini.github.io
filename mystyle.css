@@ -106,7 +106,7 @@
     color: black;
   }
 
-  /* All external links are coloured teal to provide contrast with internal links */
+  /* All external links are coloured teal and given an overline in addition to the regular underline to provide contrast with internal links */
   .external {
     color: teal;
     text-decoration: overline underline teal;
