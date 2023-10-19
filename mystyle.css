@@ -17,15 +17,16 @@
     text-shadow: 3px 3px 4px gray;
   }
 
-  /* h2 selector is set to center alignment, normal text weight, and 28px font size (overriding two defaults) */
+  /* h2 selector is set to center alignment, normal text weight, and 28px font size with a 30px margin to provide a bit of white space between h1 and h2 (overriding three defaults) */
   h2 {
     text-align: center;
     font-weight: normal;
     font-size: 28px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
-  /* h3 selector is set to normal text weight and 24 px font size with an overline text decoration (overriding two defaults) */
+  /* h3 selector is set to normal text weight and 24 px font size with an overline text decoration (overriding two defaults)
+     Overline instructions from https://www.w3schools.com/cssref/pr_text_text-decoration.php */
   h3 {
     font-weight: normal;
     font-size: 24px;
