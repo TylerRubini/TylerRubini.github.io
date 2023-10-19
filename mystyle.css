@@ -39,10 +39,12 @@
     background-color: silver;
   }
 
+  /* The top half of each entry in the employment/volunteering section is assigned a bottom margin of zero. This allows for a simulated line break without the use of a br tag. */
   .rtop {
     margin-bottom: 0px;
   }
 
+  /* The bottom half of each entry in the employment/volunteering section is assigned a top margin of zero. This allows for a simulated line break without the use of a br tag. */
   .rbott {
     margin-top: 0px;
   }
