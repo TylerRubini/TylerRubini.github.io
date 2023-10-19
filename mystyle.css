@@ -22,7 +22,7 @@
     text-align: center;
     font-weight: normal;
     font-size: 28px;
-    text-decoration-line: underline;
+    text-decoration-line: overline;
   }
 
   /* h3 selector is set to normal text weight and 24 px font size (overriding two defaults) */
@@ -41,6 +41,7 @@
   .photo {
     text-align: center;
   }
+
   /* Table and components are set to have a 1px collapsed black border. The font size is set to 18px, with 5px of padding around it and a left alignment.
   Based on instructions at https://www.w3schools.com/css/css_table.asp */
   table, td, th {
