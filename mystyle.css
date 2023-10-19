@@ -33,7 +33,7 @@
     text-decoration: overline
   }
 
-  /* p selector is set to 18px font size with a silver background */
+  /* p selector is set to 18px font size with a silver background. Note that the third required CSS declaration is the font-family inherited from the wildcard at the top of the page. */
   p {
     font-size: 18px;
     background-color: silver;
@@ -96,7 +96,8 @@
 
   /* All external links are coloured teal to provide contrast with internal links */
   .external {
-    color:teal;
+    color: teal;
+    text-decoration: overline teal;
   }
 
   /* All divs surrounding photos and their caption on the gallery page are centred. Instructions on how to accomplish this were found here: https://www.freecodecamp.org/news/how-to-center-an-image-in-css/ */
@@ -105,7 +106,7 @@
   }
 
   /* The first three photos in the gallery are the same size, so I used a class to display them in their native resolution.
-     https://www.w3schools.com/css/css_dimension.asp used for guidance here and for the next two IDs immediately below this */ 
+     https://www.w3schools.com/css/css_dimension.asp used for guidance here and for the two IDs immediately below this entry */ 
   .img1to3 {
     width: 525px;
     height: 393px;
