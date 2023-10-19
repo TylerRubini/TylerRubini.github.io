@@ -39,6 +39,14 @@
     background-color: silver;
   }
 
+  .rtop {
+    margin-bottom: 0px;
+  }
+
+  .rbott {
+    margin-top: 0px;
+  }
+
   /* Table and components are set to have a 1px collapsed black border. The font size is set to 18px, with 5px of padding around it and a left alignment.
   Based on instructions at https://www.w3schools.com/css/css_table.asp, https://www.w3schools.com/css/css_table_align.asp, and https://www.w3schools.com/css/css_table_style.asp */
   table, td, th {
